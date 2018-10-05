@@ -1,6 +1,4 @@
-# Vector-Matrix-and-Quaternions-FAQ
-
-Trying to repair and preserve  some excellent docs about vectors and 3d matrices
+Trying to preserve and repair some excellent docs about vectors and 3d matrices
 
  * [sources on www.j3d.org](http://www.j3d.org/matrix_faq/)
  
