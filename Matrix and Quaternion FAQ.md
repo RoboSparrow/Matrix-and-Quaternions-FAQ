@@ -1,3 +1,5 @@
+ * [source](http://www.j3d.org/matrix_faq/)
+
 <pre>
     <font>The Matrix and Quaternions FAQ
 ==============================</font>
@@ -38,7 +40,7 @@ Contributions
   Correction to <a href="#Q61">Q61</a>: <a href="mailto:adam@%28no-spam%29gimp.org">Adam D. Moss</a>
   Addition of <a href="#Q63">Q63</a>: <a href="mailto:cline@%28no-spam%29cs.ubc.ca">Mike Cline</a>
   Addition of <a href="#I2">I2</a>: <a href="mailto:jacob@%28no-spam%29marner.dk">Jacob Marner</a>
-  Correction to <a href="#Q38">Q38</a> and inception of <a href="#I2">I2</a>: <a href="mailto:armuller@%28no-spam%29ira.uka.de">Armin Müller</a>
+  Correction to <a href="#Q38">Q38</a> and inception of <a href="#I2">I2</a>: <a href="mailto:armuller@%28no-spam%29ira.uka.de">Armin MÃ¼ller</a>
   Addition of <a href="#Q60">Q60</a>: <a href="mailto:pfiguero@%28no-spam%29cs.ualberta.ca">Pablo Figueroa</a>
   Correntions and additions to <a href="#Q14">Q14</a>, <a href="#Q16">Q16</a>, <a href="#Q21">Q21</a> and <a href="#Q34">Q34</a>: <a href="mailto:tronster321@%28no-spam%29hotmail.com">Tronster Hartley</a>
   Correction to <a href="#Q12">Q12</a> and <a href="#Q54">Q54</a>: <a href="mailto:frankdj@%28no-spam%29mailhost.ph.tn.tudelft.nl">Frank DJ</a>
@@ -1994,15 +1996,15 @@ QUATERNIONS
   matrix using the following expression (Warning: you might have to
   transpose this matrix if you (do not) follow the OpenGL order!):
 
-         ¦        2     2                                      ¦
-         ¦ 1 - (2Y  + 2Z )   2XY + 2ZW         2XZ - 2YW       ¦
-         ¦                                                     ¦
-         ¦                          2     2                    ¦
-     M = ¦ 2XY - 2ZW         1 - (2X  + 2Z )   2YZ + 2XW       ¦
-         ¦                                                     ¦
-         ¦                                            2     2  ¦
-         ¦ 2XZ + 2YW         2YZ - 2XW         1 - (2X  + 2Y ) ¦
-         ¦                                                     ¦
+         Â¦        2     2                                      Â¦
+         Â¦ 1 - (2Y  + 2Z )   2XY + 2ZW         2XZ - 2YW       Â¦
+         Â¦                                                     Â¦
+         Â¦                          2     2                    Â¦
+     M = Â¦ 2XY - 2ZW         1 - (2X  + 2Z )   2YZ + 2XW       Â¦
+         Â¦                                                     Â¦
+         Â¦                                            2     2  Â¦
+         Â¦ 2XZ + 2YW         2YZ - 2XW         1 - (2X  + 2Y ) Â¦
+         Â¦                                                     Â¦
 
   If a 4x4 matrix is required, then the bottom row and right-most column
   may be added.
@@ -2031,10 +2033,10 @@ QUATERNIONS
 
   The resulting matrix uses the following positions:
 
-      ¦ mat[0]  mat[4] mat[ 8] mat[12] ¦
-  M = ¦ mat[1]  mat[5] mat[ 9] mat[13] ¦
-      ¦ mat[2]  mat[6] mat[10] mat[14] ¦
-      ¦ mat[3]  mat[7] mat[11] mat[15] ¦
+      Â¦ mat[0]  mat[4] mat[ 8] mat[12] Â¦
+  M = Â¦ mat[1]  mat[5] mat[ 9] mat[13] Â¦
+      Â¦ mat[2]  mat[6] mat[10] mat[14] Â¦
+      Â¦ mat[3]  mat[7] mat[11] mat[15] Â¦
 
 <a name="Q55">Q55</a>. How do I convert a rotation matrix to a quaternion?
 --------------------------------------------------------
