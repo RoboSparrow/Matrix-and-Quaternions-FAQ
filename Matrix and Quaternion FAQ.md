@@ -1,4 +1,6 @@
- * [source](http://www.j3d.org/matrix_faq/)
+ * [document source](http://www.j3d.org/matrix_faq/)
+ 
+ ---
 
 <pre>
     <font>The Matrix and Quaternions FAQ
