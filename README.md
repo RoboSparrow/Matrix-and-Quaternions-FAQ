@@ -2,7 +2,7 @@
 
 Trying to repair and preserve  some excellent docs about vectors and 3d matrices
 
- * [www.j3d.org](http://www.j3d.org/matrix_faq/)
+ * [sources on www.j3d.org](http://www.j3d.org/matrix_faq/)
  
 | Document      | Version |
 | ------------- | ------- |
