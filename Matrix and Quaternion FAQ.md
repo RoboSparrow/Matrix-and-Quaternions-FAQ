@@ -340,7 +340,7 @@ BASICS
   mat[12] = M        mat[15] = M
              30                 33
 
-    |  0  1  2  3 |
+        |  0  1  2  3 |
         |             |              | 0 1 2 |
         |  4  5  6  7 |              |       |
     M = |             |          M = | 3 4 5 |
@@ -511,7 +511,7 @@ ARITHMETIC
         |       |   |       |
         | G H I |   | P Q R |
 
-    | A+J B+K C+L |
+        | A+J B+K C+L |
         |             |
       = | D+M E+N F+O |
         |             |
@@ -537,7 +537,7 @@ ARITHMETIC
         |       |   |       |
         | G H I |   | P Q R |
 
-    | A-J B-K C-L |
+        | A-J B-K C-L |
         |             |
       = | D-M E-N F-O |
         |             |
